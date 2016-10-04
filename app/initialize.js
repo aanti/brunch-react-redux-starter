@@ -3,7 +3,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import counterApp from './reducers';
-import App from 'components/App';
+import App from 'components/App/App';
 
 const store = createStore(counterApp, module.hot && module.hot.data && module.hot.data.counter || 0);
 
