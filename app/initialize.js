@@ -1,3 +1,4 @@
+/* eslint-disable */
 import ReactDOM from 'react-dom';
 import React from 'react';
 import { Provider } from 'react-redux';
@@ -33,3 +34,4 @@ if (document.readyState !== 'complete') {
 } else {
   load();
 }
+/* eslint-enable */
