@@ -10,7 +10,7 @@ export default class App extends Component {
     return (
       <div id="content">
         {/* main content */}
-        asdasdasdasdasd
+        asdasdasdasdasda
       </div>
     )
   }
